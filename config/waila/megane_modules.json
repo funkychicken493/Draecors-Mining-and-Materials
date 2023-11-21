@@ -1,0 +1,13 @@
+{
+  "modules": {
+    "megane-create": {
+      "lol.bai.megane.module.create.MeganeCreate": true
+    },
+    "megane-alloy-forgery": {
+      "lol.bai.megane.module.alloyforgery.MeganeAlloyForgery": true
+    },
+    "megane-vanilla": {
+      "lol.bai.megane.module.vanilla.MeganeVanilla": true
+    }
+  }
+}

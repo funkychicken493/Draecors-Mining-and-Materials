@@ -1,0 +1,89 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				pig = true
+				cow = true
+				chicken = true
+				sheep = true
+				horse = true
+				cat = true
+				iron_golem = true
+				bat = true
+				skeleton = true
+				creeper = true
+				glow_squid = true
+				zombie = true
+				drowned = true
+				salmon = true
+				cod = true
+				pufferfish = true
+				item = true
+				spider = true
+				enderman = true
+				witch = true
+				donkey = true
+				fox = true
+				slime = true
+				experience_orb = true
+				chest_minecart = true
+				frog = true
+				turtle = true
+				squid = true
+				tropical_fish = true
+				dolphin = true
+
+			[light_sources.settings.entities.mca]
+				male_villager = true
+				female_villager = true
+				male_zombie_villager = true
+				female_zombie_villager = true
+
+			[light_sources.settings.entities.betternether]
+				firefly = true
+				skull = true
+
+			[light_sources.settings.entities.hdiamond]
+				panel = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				dripstone_creeper = true
+				cave_creeper = true
+				badlands_creeper = true
+				savannah_creeper = true
+				snowy_creeper = true
+				jungle_creeper = true
+				ocean_creeper = true
+
+			[light_sources.settings.entities.hwg]
+				bullets = true
+				fireball = true
+				technodemon_greater_1 = true
+				shell = true
+				flare = true
+
+			[light_sources.settings.entities.galosphere]
+				spectre = true
+

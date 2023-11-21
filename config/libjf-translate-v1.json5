@@ -1,0 +1,5 @@
+{
+  // Valid: [Google]
+  translationService: "Google",
+  libreTranslateHost: "https://translate.argosopentech.com"
+}
