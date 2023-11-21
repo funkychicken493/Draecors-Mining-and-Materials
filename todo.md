@@ -1,0 +1,1 @@
+- [ ] Make a python script that automatically creates a markdown list of all the mods from profile.json.
