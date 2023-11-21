@@ -54,6 +54,13 @@ mode = "fancy"
 				squid = true
 				tropical_fish = true
 				dolphin = true
+				allay = true
+				evoker = true
+				pillager = true
+				parrot = true
+				panda = true
+				bee = true
+				ocelot = true
 
 			[light_sources.settings.entities.mca]
 				male_villager = true
@@ -76,6 +83,7 @@ mode = "fancy"
 				snowy_creeper = true
 				jungle_creeper = true
 				ocean_creeper = true
+				bamboo_creeper = true
 
 			[light_sources.settings.entities.hwg]
 				bullets = true
