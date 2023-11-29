@@ -1,0 +1,30 @@
+{
+  "disabledResources": [
+    "forgero:diamond-sacrificial_dagger_blade"
+  ],
+  "disabledPacks": [],
+  "disableVanillaRecipes": false,
+  "enableCustomRecipeDeletion": true,
+  "disableVanillaLoot": false,
+  "disableVanillaTools": false,
+  "convertVanillaRecipesToForgeroTools": false,
+  "convertVanillaToolLoot": false,
+  "enableUnbreakableTools": false,
+  "enableRepairKits": true,
+  "resourceLogging": true,
+  "logDisabledPackages": false,
+  "baseSoulLevelRequirement": 1000,
+  "useEntityAttributes": true,
+  "hideRarity": true,
+  "exportGeneratedTextures": false,
+  "showAttributeDifference": true,
+  "enableRecipesForAllSchematics": false,
+  "weightReducesAttackSpeed": true,
+  "enableUpgradeInCraftingTable": false,
+  "WeightIncreasesHungerCenterPoint": 50,
+  "WeightIncreasesHungerScaler": 10,
+  "WeightIncreasesHungerBaseChance": 0.01,
+  "weightIncreasesHunger": false,
+  "minimumAttackSpeed": 0.5,
+  "buildModelsAsync": true
+}

@@ -18,3 +18,5 @@ rhino.local.properties
 /shaderpacks
 /emi.json
 /config/byg/backups
+config/byg/backups/last_working_configs_backup.zip
+config/bclib/cache.json

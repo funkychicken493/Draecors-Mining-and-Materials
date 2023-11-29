@@ -9,8 +9,14 @@ markdown = ''
 with open('profile.json', encoding='utf-8', errors='ignore') as f:
     profile = json.load(f)
     projects = profile['projects']
+    print(f'Found {len(projects)} projects in profile.json')
+    # Ensure that the metadata contains the project key
+    for project in projects.copy():
+        if 'project' not in projects[project]['metadata']:
+            print(f'Project {project} does not contain project key in metadata, skipping...')
+            projects.pop(project)
     # Sort projects by title
-    projects = {k: v for k, v in sorted(projects.items(), key=lambda item: item[1]['metadata']['project']['title'])}
+    projects = dict(sorted(projects.items(), key=lambda x: x[1]['metadata']['project']['title']))
     for project in projects:
         title = projects[project]['metadata']['project']['title']
         # Replace '[' and ']' with '\[' and '\]' respectively
