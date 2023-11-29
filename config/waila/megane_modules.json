@@ -6,6 +6,9 @@
     "megane-alloy-forgery": {
       "lol.bai.megane.module.alloyforgery.MeganeAlloyForgery": true
     },
+    "megane-powah": {
+      "lol.bai.megane.module.powah.MeganePowah": true
+    },
     "megane-vanilla": {
       "lol.bai.megane.module.vanilla.MeganeVanilla": true
     }

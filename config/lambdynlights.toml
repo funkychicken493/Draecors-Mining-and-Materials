@@ -61,6 +61,11 @@ mode = "fancy"
 				panda = true
 				bee = true
 				ocelot = true
+				wolf = true
+				axolotl = true
+				lightning_bolt = true
+				rabbit = true
+				magma_cube = true
 
 			[light_sources.settings.entities.mca]
 				male_villager = true
@@ -84,6 +89,7 @@ mode = "fancy"
 				jungle_creeper = true
 				ocean_creeper = true
 				bamboo_creeper = true
+				spruce_creeper = true
 
 			[light_sources.settings.entities.hwg]
 				bullets = true
@@ -94,4 +100,22 @@ mode = "fancy"
 
 			[light_sources.settings.entities.galosphere]
 				spectre = true
+				sparkle = true
+
+			[light_sources.settings.entities.powah]
+				charged_snowball = true
+
+			[light_sources.settings.entities.ad_astra]
+				tier_4_rocket = true
+				lander = true
+				glacian_ram = true
+				lunarian = true
+				star_crawler = true
+				corrupted_lunarian = true
+				sulfur_creeper = true
+				martian_raptor = true
+				zombified_pygro = true
+				mogler = true
+				pygro = true
+				tier_1_rover = true
 

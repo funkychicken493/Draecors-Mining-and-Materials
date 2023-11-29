@@ -1,0 +1,21 @@
+{
+  "bookGuiScale": 5,
+  "clickedVisualize": false,
+  "bookData": {
+    "ad_astra:astrodux": {
+      "viewedEntries": [
+        "ad_astra:the_hot_planets/proxima_centauri",
+        "ad_astra:the_hot_planets/jet_suit"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "purpeille:ancients_almanac": {
+      "viewedEntries": [
+        "purpeille:the_ancients"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}
